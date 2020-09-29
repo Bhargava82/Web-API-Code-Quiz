@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="nav">
+			<!-- view scores link on the top left of nav bar-->
+			<div class="left">
+                <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
+			</div>
+			<!-- countdown timer on the top right of nav bar-->
+			<div class="right">
+				<h4>Time: <span id="timeLeft">0</span></h4>
+			</div>
+		</div>
+		<!--main body of quiz-->
+		<div id="quiz">
+            <div id="quizBody">      
+                <h1>   
+                    JavaScript Quiz!
+                </h1>
+                <h3>
+					Click to play!   
+                </h3>
+                <button onclick="start()">Start!</button>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
