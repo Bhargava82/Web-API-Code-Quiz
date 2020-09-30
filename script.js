@@ -25,7 +25,7 @@ var questions = [{
 }
 ]
 
-//setting the numerical variables for the functions.. scores and timers.. 
+// setting the numerical variables for the functions.. scores and timers.. 
 var score = 0;
 var currentQuestion = -1;
 var timeLeft = 0;
